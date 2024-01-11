@@ -6,6 +6,8 @@ dependencies {
     testCompileOnly libs.lombok
     testAnnotationProcessor libs.lombok
 
+    compileOnly libs.osgi.core
+
     testImplementation libs.silly.io
     testImplementation libs.file.worker
     testImplementation libs.throwable

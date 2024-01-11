@@ -1,7 +1,7 @@
 /**
  * The MIT License
  *
- * Copyright (C) 2022 Asterios Raptis
+ * Copyright (C) 2024 Asterios Raptis
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -43,13 +43,13 @@ class InitialTemplateTest
 {
 
 	@Test
-//	@Disabled
+	@Disabled
 	public void testRenameToConcreteProject() throws IOException
 	{
 		String projectDescription;
 		// TODO change the following description with your project description
 		// and then remove the annotation Disabled and run this unit test method
-		projectDescription = "github template repository for osgi bundles with gradle";
+		projectDescription = "!!!Chage this description with your project description!!!";
 		renameToConcreteProject(projectDescription);
 	}
 
