@@ -65,7 +65,7 @@ class InitialTemplateTest
 		File initialTemplateClassFile;
 		//
 		sourceProjectDir = PathFinder.getProjectDirectory();
-		templateProjectName = DependenciesInfo.JAVA_LIBRARY_TEMPLATE_NAME;
+		templateProjectName = "osgi-bundle-template";
 		concreteProjectName = sourceProjectDir.getName();
 		// adapt settings.gradle file
 		settingsGradle = new File(sourceProjectDir, DependenciesInfo.SETTINGS_GRADLE_FILENAME);
